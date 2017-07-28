@@ -1,0 +1,151 @@
+/*设置导航及底部部分*/
+#navigation>div:first-child>div.rt>a{
+    background-image: url(../img_pg/search.jpg);
+}
+#navigation>div>ul>li>a.active{
+    background-image: url(../img_pg/nv_li.png);
+}
+#bottom>div>div:nth-child(2)>span>a:last-child{
+    background-image: url(../img_pg/security.png);
+}
+
+/*设置中间部分*/
+#phtograph{
+    width: 100%;
+    background: #F3F4F8;
+}
+#phtograph>div{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+#phtograph>div>div:nth-child(2){
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+/*设置随手拍达人部分*/
+#phtograph div.character>div>div{
+    border-bottom: 1px solid #dfdfdf;
+    width: 460px;
+    flex-grow: 1;
+}
+#phtograph div.character>div:first-child{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+#phtograph div.character>ul{
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+#phtograph div.character>ul>li{
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 80px;
+    margin-top: 25px;
+}
+#phtograph div.character>ul>li>a>img{
+    width: 80px;
+    box-sizing: border-box;
+    padding: 4px;
+    border: 1px solid #ddd;
+    border-radius: 0;
+}
+#phtograph div.character>ul>li>a{
+    float: left;
+}
+#phtograph div.character>ul>li>div{
+    float: left;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+#phtograph div.character>ul>li>div>div{
+    margin-bottom: 10px;
+}
+/*设置随手拍作品  */
+#phtograph div.works>div:nth-child(2){
+    height: 40px;
+    line-height: 40px;
+}
+#phtograph div.works>div:nth-child(2)>a:first-child{
+    border: 1px solid  #005e93;
+    background-image:linear-gradient(to top,#0088d5,#0077ba);
+    padding: 5px 30px 5px 30px;
+    color: #fff;
+}
+#phtograph div.works>div:nth-child(2)>a:first-child>a:hover{
+    color: #fff !important;
+    background:linear-gradient(to top,#006096,#005686);
+}
+#phtograph div.works>div:nth-child(2){
+    width: 100%;
+}
+#phtograph div.works{
+    overflow: hidden;
+}
+#phtograph div.works ul{
+    width: 258px;
+    box-sizing: border-box;
+}
+#phtograph div.works li.works_lsit>div{
+    overflow: hidden;
+    padding: 10px 6px;
+}
+#phtograph li.works_lsit{
+    position: relative;
+}
+#phtograph li.works_lsit>div:nth-child(2){
+    position: absolute;
+    top:10px;
+    left:0px;
+}
+#phtograph li.works_lsit>div:nth-child(2)>a{
+    padding:25px;
+    background: url(../img_pg/sspicon.png) no-repeat 0px 0px;
+}
+#phtograph li.works_lsit>div:nth-child(2)>a:nth-child(2){
+    background: url(../img_pg/sinaweibo.png) no-repeat 0px 0px;
+}
+#phtograph li.works_lsit>div>img{
+    width: 40px;
+    border-radius: 50%;
+}
+#phtograph div.works li.works_lsit>div>div{
+    padding-left: 10px;
+    overflow: hidden;
+}
+#phtograph div.works li.works_lsit>div>div>div:last-child{
+    padding: 12px;
+    background: url(../img_pg/ico_zan_nor.png) no-repeat 0px 0px;
+}
+#phtograph div.works li.works_lsit>div>div>div:first-child>div>a{
+    padding-left: 30px;
+    background: url(../img_pg/ico_zan_nor_small.png) no-repeat 10px 2px;
+    font-size: 13px;
+    color: rgba(0,0,0,0.7);
+}
+#phtograph div.works li.works_lsit>div>div>div:first-child>div>b{
+    padding-left: 30px;
+    background: url(../img_pg/ico_eyes.png) no-repeat 10px 0;
+    font-size: 13px;
+    color: rgba(0,0,0,0.7);
+    font-weight: normal;
+}
+
+#phtograph  div.works>div{
+    overflow: hidden;
+}
+#phtograph  div.works>div>ul{
+    float: left;
+    margin-right: 15px;
+}
+#phtograph  div.works>div>ul>li{
+   margin-bottom: 20px;
+    background-color: #fff;
+}
+
